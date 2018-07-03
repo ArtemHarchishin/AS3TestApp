@@ -24,7 +24,15 @@ package
 //			bitwiseOp();
 //			castOp();
 //			dictionary();
-			vector();
+//			vector();
+			NaNOp();
+		}
+		
+		private function NaNOp():void
+		{
+			var s:String = "0";
+			var a:Number = parseInt(s);
+			trace(Boolean(a));
 		}
 		
 		private function vector():void
