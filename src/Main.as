@@ -25,7 +25,16 @@ package
 //			castOp();
 //			dictionary();
 //			vector();
-			NaNOp();
+//			NaNOp();
+			enumOp();
+		}
+		
+		private function enumOp():void
+		{
+			var unit:int = PATTERN_UNIT.fromString("0");
+			trace(unit);
+			unit = PATTERN_UNIT.fromString("c1");
+			trace(unit);
 		}
 		
 		private function NaNOp():void
